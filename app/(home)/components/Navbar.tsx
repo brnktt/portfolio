@@ -26,7 +26,7 @@ function Navbar() {
   
   return (
     <nav className="py-10 flex justify-between items-center">
-      <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">Alessandro Branchetti 👨🏻‍💻</h1>
+      <h2 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">Alessandro Branchetti 👨🏻‍💻</h2>
       <div className="flex items-center gap-5">
         {socials.map((social: Social, index: number) => {
           const Icon: IconType = social.Icon;
