@@ -1,6 +1,7 @@
 import Navbar from "@/app/(home)/components/Navbar";
 import HeroSection from "@/app/(home)/components/HeroSection";
 import Skills from "@/app/(home)/components/Skills";
+import Projects from "@/app/(home)/components/Projects";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto px-5 xl:p-0 mt-20">
         <Skills />
+        <Projects />
       </div>
     </div>
   );
