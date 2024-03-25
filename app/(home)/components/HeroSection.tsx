@@ -5,14 +5,16 @@ import Title from "@/app/(home)/components/Title";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-0 items-center justify-between min-h-[60vh] animate-move-up">
+    <div
+      className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-0 items-center justify-between min-h-[60vh] animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
-        <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 👋🏻<br/> <span className="underline underline-offset-8 decoration-green-500">{"I'm Alessandro."}</span></h1>
+        <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 👋🏻<br/> <span
+          className="underline underline-offset-8 decoration-green-500">{"I'm Alessandro."}</span></h1>
         <p className="md:w-96 text-lg text-gray-300">
           {"Based in Poland. I'm a Fullstack developer passionate about building a modern web applications that users love."}
         </p>
         <Link href={"mailto:brk.alessandro@gmail.com"} className="inline-block group">
-          <Title text="Contact Me 📬" />
+          <Title text="Contact Me 📬"/>
         </Link>
       </div>
       
@@ -30,7 +32,11 @@ function HeroSection() {
         </div>
         <div className="absolute bottom-14 -left-4">
           <MovingBorderBtn borderRadius="0.5rem" className="p-2 font-semibold">
-            <p>💼 Available for Work</p>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >💼 Available for Work</a>
           </MovingBorderBtn>
         </div>
       </div>
