@@ -5,7 +5,7 @@ import Title from "@/app/(home)/components/Title";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-0 items-center justify-between min-h-[60vh]">
+    <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-0 items-center justify-between min-h-[60vh] animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 👋🏻<br/> <span className="underline underline-offset-8 decoration-green-500">{"I'm Alessandro."}</span></h1>
         <p className="md:w-96 text-lg text-gray-300">
